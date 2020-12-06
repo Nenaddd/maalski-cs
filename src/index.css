@@ -1,0 +1,99 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: black;
+  margin: 0;
+  color: #929a9e;
+  cursor: default;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.user-container {
+  background: #45515F;
+  /* color: white; */
+  border: 1px solid #495867;
+  border-radius: 2px;
+  width: fit-content;
+}
+
+.single-user {
+  display: flex;
+}
+
+.single-user div {
+  width: auto;
+  border: 0.2px solid #495867;
+  padding: 5px;
+  min-width: 70px;
+}
+
+.user-container .row .single-user:nth-child(even),
+.user-container > .single-user:first-child {
+  background: #364250;
+}
+.user-container > .single-user {
+  font-weight: bold;
+}
+
+.user-container .single-user div:last-child {
+  color: #09b300;
+  font-weight: bold;
+}
+
+.user-container:first-child > .single-user div:last-child {
+  font-weight: bold;
+  color: #929a9e;
+}
+
+.user-container:first-child > .single-user div {
+  cursor: pointer;
+}
+
+.single-user div:nth-child(2) {
+  width: 25%;
+}
+
+.user-container > .row > .single-user:hover {
+  background: #5e6e80;
+}
+
+.user-container > .row .single-user div:nth-child(2) {
+  color: #87a3bf;
+}
+
+.user-container > .row .single-user div:nth-child(1) {
+  font-weight: bold;
+}
+
+.user-container > .row .single-user div:nth-child(6) {
+  font-weight: bold;
+}
+
+.active {
+  background-color: #45515f;
+}
+
+@media only screen and (max-width: 750px) {
+
+  body {
+    font-size: 10px;
+  }
+
+  .container {
+    justify-content: unset;
+    align-items: unset;
+  }
+
+  .single-user div {
+    min-width: 27px;
+  }
+}

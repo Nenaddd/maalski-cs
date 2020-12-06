@@ -1,0 +1,137 @@
+[
+    {
+        "id": 0,
+        "username": "Van Gogh",
+        "wins": 0,
+        "losses": 3,
+        "draws": 2,
+        "kills": 79,
+        "deaths": 99
+    },
+    {
+        "id": 1,
+        "username": "ROSONJER",
+        "wins": 0,
+        "losses": 3,
+        "draws": 2,
+        "kills": 68,
+        "deaths": 108
+    },
+    {
+        "id": 2,
+        "username": "Zzzzokid",
+        "wins": 0,
+        "losses": 3,
+        "draws": 2,
+        "kills": 86,
+        "deaths": 96
+    },
+    {
+        "id": 3,
+        "username": "Makedon",
+        "wins": 0,
+        "losses": 3,
+        "draws": 2,
+        "kills": 113,
+        "deaths": 102
+    },
+    {
+        "id": 4,
+        "username": "Ljupa",
+        "wins": 0,
+        "losses": 3,
+        "draws": 2,
+        "kills": 90,
+        "deaths": 102
+    },
+    {
+        "id": 5,
+        "username": "Igor",
+        "wins": 0,
+        "losses": 3,
+        "draws": 2,
+        "kills": 123,
+        "deaths": 92
+    },
+    {
+        "id": 6,
+        "username": "neno",
+        "wins": 3,
+        "losses": 0,
+        "draws": 2,
+        "kills": 168,
+        "deaths": 76
+    },
+    {
+        "id": 7,
+        "username": "KoLJo",
+        "wins": 3,
+        "losses": 0,
+        "draws": 2,
+        "kills": 125,
+        "deaths": 90
+    },
+    {
+        "id": 8,
+        "username": "donn4o",
+        "wins": 3,
+        "losses": 0,
+        "draws": 1,
+        "kills": 42,
+        "deaths": 74
+    },
+    {
+        "id": 9,
+        "username": "MaxMagnus",
+        "wins": 3,
+        "losses": 0,
+        "draws": 2,
+        "kills": 48,
+        "deaths": 93
+    },
+    {
+        "id": 10,
+        "username": "KalaShephard[R]",
+        "wins": 3,
+        "losses": 0,
+        "draws": 1,
+        "kills": 74,
+        "deaths": 53
+    },
+    {
+        "id": 11,
+        "username": "Vlatkosaurus",
+        "wins": 3,
+        "losses": 0,
+        "draws": 2,
+        "kills": 135,
+        "deaths": 80
+    },
+    {
+        "id": 12,
+        "username": "Viksaa",
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "kills": 0,
+        "deaths": 0
+    },
+    {
+        "id": 13,
+        "username": "Zuica Lazova",
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "kills": 0,
+        "deaths": 0
+    },
+    {
+        "id": 14,
+        "username": "Leon Djingo",
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "kills": 0,
+        "deaths": 0
+    }
+]
