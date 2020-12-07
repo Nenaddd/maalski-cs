@@ -58,7 +58,9 @@ const PlayerList = ({ allPlayers }) => {
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
-    const calculateKdScore = (k, d) => Math.round(((k / d) + Number.EPSILON) * 100) / 100 || 0;
+    // const calculateKdScore = (k, d) => Math.round(((k / d) + Number.EPSILON) * 100) / 100 || 0;
+    const calculateKdScore = (k, d) => d !== 0 ? (k / d).toFixed(2) : "0.00";
+
 
     const getKillsPerGame = (kills, numberOfGames) => Math.round((kills / numberOfGames)) || 0;
 
