@@ -69,7 +69,7 @@ const PlayerList = ({ allPlayers }) => {
         if (label.opt) {
             clone.sort((a, b) => b[label.opt] - a[label.opt]);
         } else {
-            console.log("Feature not implemented");
+            console.error("Feature not implemented");
             return;
         }
 
@@ -95,9 +95,7 @@ const PlayerList = ({ allPlayers }) => {
     const addPlayer = () => {
         const foundPlayer = players.find(player => player.username.toLowerCase() === playerInput.toLowerCase());
         if (foundPlayer) {
-            console.log(foundPlayer);
             const checkIfDuplicate = selectedPlayers.find(aPlayer => foundPlayer.id === aPlayer.id);
-            console.log(checkIfDuplicate, "asd");
             if (checkIfDuplicate) {
                 alert(`Player already added! ${checkIfDuplicate.username}`);
             } else {
