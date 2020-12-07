@@ -3,28 +3,6 @@ import SinglePlayer from "./SinglePlayer";
 
 const PlayerList = ({ allPlayers }) => {
 
-    const [players, setPlayers] = useState(allPlayers);
-    const [selectedFilter, setSelectedFilter] = useState(8);
-    const [selectedPlayers, setSelectedPlayers] = useState([]);
-    const [playerInput, setPlayerInput] = useState("");
-    const [teamA, setTeamA] = useState([]);
-    const [teamB, setTeamB] = useState([]);
-
-    useEffect(() => {
-        let clonedPlayers = [...players];
-        clonedPlayers.forEach(player => {
-            player.kdScore = calculateKdScore(player.kills, player.deaths);
-            player.kdPerGame = getKdPerGame(player.kills, (player.wins + player.losses + player.draws));
-        });
-        clonedPlayers.sort((a, b) => b.kdScore - a.kdScore);
-        setPlayers(clonedPlayers);
-    }, []);
-
-    const calculateKdScore = (k, d) => Math.round(((k / d) + Number.EPSILON) * 100) / 100 || 0;
-
-    const getKdPerGame = (stats, numberOfGames) => Math.round((stats / numberOfGames)) || 0;
-
-    // const table = ['Rank', 'Player', 'Wins', 'Losses', 'Draws', 'Kills', 'Deaths', 'k/g', 'k/d'];
     const table = [
         {
             label: 'Rank',
@@ -54,24 +32,46 @@ const PlayerList = ({ allPlayers }) => {
         },
         {
             label: 'k/g',
-            opt: "k/g"
+            opt: "killsPerGame"
         },
         {
             label: 'k/d',
-            opt: "k/d"
+            opt: "kdScore"
         }
     ]
+
+    const [players, setPlayers] = useState(allPlayers);
+    const [selectedFilter, setSelectedFilter] = useState(8);
+    const [selectedPlayers, setSelectedPlayers] = useState([]);
+    const [playerInput, setPlayerInput] = useState("");
+    const [teamA, setTeamA] = useState([]);
+    const [teamB, setTeamB] = useState([]);
+
+    useEffect(() => {
+        let clonedPlayers = [...players];
+        clonedPlayers.forEach(player => {
+            player.kdScore = calculateKdScore(player.kills, player.deaths);
+            player.killsPerGame = getKillsPerGame(player.kills, (player.wins + player.losses + player.draws));
+        });
+        clonedPlayers.sort((a, b) => b.kdScore - a.kdScore);
+        setPlayers(clonedPlayers);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, []);
+
+    const calculateKdScore = (k, d) => Math.round(((k / d) + Number.EPSILON) * 100) / 100 || 0;
+
+    const getKillsPerGame = (kills, numberOfGames) => Math.round((kills / numberOfGames)) || 0;
+
     const handleSortClick = (label, index) => {
         let clone = [...players];
-        let sortBy = ""
         if (label.opt) {
             clone.sort((a, b) => b[label.opt] - a[label.opt]);
         } else {
             console.log("Feature not implemented");
             return;
         }
- 
-        
+
+
         setPlayers(clone);
         setSelectedFilter(index);
     }
@@ -115,6 +115,7 @@ const PlayerList = ({ allPlayers }) => {
             const firstTeam = [];
             const secondTeam = [];
             sortedPlayers.forEach((player, index) => {
+                // TODO: a better algorithm for match-making based on wins/losses + KD
                 if (index === 0 || index === 3 || index === 5 || index === 7 || index === 9 || index === 10 || index === 12 || index === 14) {
                     firstTeam.push(player);
                 } else {
@@ -148,7 +149,7 @@ const PlayerList = ({ allPlayers }) => {
                         draws={player.draws}
                         kills={player.kills}
                         deaths={player.deaths}
-                        kdPerGame={player.kdPerGame}
+                        killsPerGame={player.killsPerGame}
                         kdScore={player.kdScore}
                         index={index}
                         key={player.id}
@@ -157,9 +158,9 @@ const PlayerList = ({ allPlayers }) => {
             </div>
             <div className="actions">
                 <div className="buttons-actions">
-                    <div class="input-group">
+                    <div className="input-group">
                         <input type="text" name="text-1542372332072" id="text-1542372332072" value={playerInput} placeholder="Player Name" className="form-control" onChange={handlePlayerChange} onKeyDown={handleKeyDown} />
-                        <label for="text-1542372332072">Player Name</label>
+                        <label htmlFor="text-1542372332072">Player Name</label>
                     </div>
                     <button onClick={handleAddPlayer}>Add Player</button>
                     <button className={`create-teams ${selectedPlayers.length > 1 && "show-button"}`} onClick={handleCreateTeams}>Create Teams!</button>

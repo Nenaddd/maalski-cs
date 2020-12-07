@@ -35,6 +35,7 @@ const useEndpoint = (req) => {
                     complete: true
                 })
             )
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [req.url]);
 
     return res;
