@@ -47,6 +47,6 @@ export const table = [
     },
     {
         label: 'score',
-        opt: "kdScore"
+        opt: "score"
     }
 ]
