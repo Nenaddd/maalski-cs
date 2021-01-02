@@ -35,7 +35,7 @@ const PlayerList = ({ allPlayers }) => {
             opt: "killsPerGame"
         },
         {
-            label: 'k/d',
+            label: 'score',
             opt: "kdScore"
         }
     ]
@@ -50,17 +50,24 @@ const PlayerList = ({ allPlayers }) => {
     useEffect(() => {
         let clonedPlayers = [...players];
         clonedPlayers.forEach(player => {
-            player.kdScore = calculateKdScore(player.kills, player.deaths);
+            // 10% of the wins/losses affect the scores
+            const winsScore = calculateWinLoseScore(player.wins, player.losses, player.draws, player.losses);
+            const lossesScore = calculateWinLoseScore(player.wins, player.losses, player.draws, player.wins);
+            const kdScore = calculateKdScore(player.kills, player.deaths);
+            // score based on wins/losses + k/d
+            const totalScore = kdScore + winsScore - lossesScore;
+            player.score = totalScore.toFixed(2);
             player.killsPerGame = getKillsPerGame(player.kills, (player.wins + player.losses + player.draws));
         });
-        clonedPlayers.sort((a, b) => b.kdScore - a.kdScore);
+        clonedPlayers.sort((a, b) => b.score - a.score);
         setPlayers(clonedPlayers);
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
-    // const calculateKdScore = (k, d) => Math.round(((k / d) + Number.EPSILON) * 100) / 100 || 0;
-    const calculateKdScore = (k, d) => d !== 0 ? (k / d).toFixed(2) : "0.00";
+    const calculateKdScore = (k, d) => Math.round(((k / d) + Number.EPSILON) * 100) / 100 || 0.00;
+    // const calculateKdScore = (k, d) => d !== 0 ? (k / d).toFixed(2) : "0.00";
 
+    const calculateWinLoseScore = (w, l, d, param) => param > 1 ? ((((w + l + d) / param) / 100) * 10) : 0;
 
     const getKillsPerGame = (kills, numberOfGames) => Math.round((kills / numberOfGames)) || 0;
 
@@ -111,7 +118,7 @@ const PlayerList = ({ allPlayers }) => {
         if (selectedPlayers.length % 2 !== 0) {
             alert('Make sure you have an even number of players!');
         } else {
-            const sortedPlayers = selectedPlayers.sort((a, b) => b.kdScore - a.kdScore);
+            const sortedPlayers = selectedPlayers.sort((a, b) => b.score - a.score);
             const firstTeam = [];
             const secondTeam = [];
             sortedPlayers.forEach((player, index) => {
@@ -150,7 +157,7 @@ const PlayerList = ({ allPlayers }) => {
                         kills={player.kills}
                         deaths={player.deaths}
                         killsPerGame={player.killsPerGame}
-                        kdScore={player.kdScore}
+                        score={player.score}
                         index={index}
                         key={player.id}
                     />

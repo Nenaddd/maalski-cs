@@ -1,4 +1,4 @@
-const SinglePlayer = ({ username, wins, losses, draws, kills, deaths, kdScore, killsPerGame, index }) => (
+const SinglePlayer = ({ username, wins, losses, draws, kills, deaths, score, killsPerGame, index }) => (
     <div className="single-user">
         <div>{index + 1}#</div>
         <div>{username}</div>
@@ -8,7 +8,7 @@ const SinglePlayer = ({ username, wins, losses, draws, kills, deaths, kdScore, k
         <div>{kills}</div>
         <div>{deaths}</div>
         <div>{killsPerGame}</div>
-        <div>{kdScore}</div>
+        <div>{score}</div>
     </div>)
 
 export default SinglePlayer;
