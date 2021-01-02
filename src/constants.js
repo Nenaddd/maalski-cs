@@ -13,3 +13,40 @@ export const PROCESS_MSG = {
     LOADING: 'Loading...',
     STH_HAPPENED: 'Something bad happened'
 }
+
+export const table = [
+    {
+        label: 'Rank',
+    },
+    {
+        label: 'Player',
+    },
+    {
+        label: 'Wins',
+        opt: "wins"
+    },
+    {
+        label: 'Losses',
+        opt: "losses"
+    },
+    {
+        label: 'Draws',
+        opt: "draws"
+    },
+    {
+        label: 'Kills',
+        opt: "kills"
+    },
+    {
+        label: 'Deaths',
+        opt: "deaths"
+    },
+    {
+        label: 'k/g',
+        opt: "killsPerGame"
+    },
+    {
+        label: 'score',
+        opt: "kdScore"
+    }
+]

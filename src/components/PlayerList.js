@@ -1,45 +1,8 @@
 import { useEffect, useState } from 'react';
 import SinglePlayer from "./SinglePlayer";
+import {table} from '../constants';
 
 const PlayerList = ({ allPlayers }) => {
-
-    const table = [
-        {
-            label: 'Rank',
-        },
-        {
-            label: 'Player',
-        },
-        {
-            label: 'Wins',
-            opt: "wins"
-        },
-        {
-            label: 'Losses',
-            opt: "losses"
-        },
-        {
-            label: 'Draws',
-            opt: "draws"
-        },
-        {
-            label: 'Kills',
-            opt: "kills"
-        },
-        {
-            label: 'Deaths',
-            opt: "deaths"
-        },
-        {
-            label: 'k/g',
-            opt: "killsPerGame"
-        },
-        {
-            label: 'score',
-            opt: "kdScore"
-        }
-    ]
-
     const [players, setPlayers] = useState(allPlayers);
     const [selectedFilter, setSelectedFilter] = useState(8);
     const [selectedPlayers, setSelectedPlayers] = useState([]);
