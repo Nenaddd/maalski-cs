@@ -115,8 +115,8 @@ const PlayerList = ({ allPlayers }) => {
             const firstTeam = [];
             const secondTeam = [];
             sortedPlayers.forEach((player, index) => {
-                // TODO: a better algorithm for match-making based on wins/losses + KD
-                if (index === 0 || index === 3 || index === 5 || index === 7 || index === 9 || index === 10 || index === 12 || index === 14) {
+                // TODO: algorithm for match-making based on wins/losses + KD
+                if (index === 0 || index === 3 || index === 5 || index === 6 || index === 8 || index === 11 || index === 12 || index === 15) {
                     firstTeam.push(player);
                 } else {
                     secondTeam.push(player);
