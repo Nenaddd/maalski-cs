@@ -1,5 +1,5 @@
 export const API = {
-    ALL_PLAYERS: 'https://run.mocky.io/v3/45ffde3f-a5f9-45ba-874b-48b8a6579df3'
+    ALL_PLAYERS: 'https://run.mocky.io/v3/c7a2c4cf-56d8-44bc-9061-a0c56427675f'
 }
 
 export const METHOD = {
