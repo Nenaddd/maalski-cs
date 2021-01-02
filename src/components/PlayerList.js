@@ -109,7 +109,7 @@ const PlayerList = ({ allPlayers }) => {
     return (
         <div className="user-container">
             <div className="single-user">
-                {table.map((label, index) => <div key={index} onClick={() => handleSortClick(label, index)} className={`${selectedFilter === index && "active"}`}>{label.label}</div>)}
+                {table.map((label, index) => <div key={index} onClick={() => handleSortClick(label, index)} className={`${selectedFilter === index ? "active" : ""}`}>{label.label}</div>)}
             </div>
             <div className="row">
                 {players.map((player, index) => (
