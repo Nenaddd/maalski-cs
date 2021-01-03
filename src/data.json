@@ -2,11 +2,11 @@
     {
         "id": 0,
         "username": "Van Gogh",
-        "wins": 0,
+        "wins": 3,
         "losses": 0,
         "draws": 0,
-        "kills": 0,
-        "deaths": 0
+        "kills": 60,
+        "deaths": 39
     },
     {
         "id": 1,
@@ -20,56 +20,56 @@
     {
         "id": 2,
         "username": "Zzzzokid",
-        "wins": 3,
+        "wins": 6,
         "losses": 2,
         "draws": 0,
-        "kills": 89,
-        "deaths": 65
+        "kills": 170,
+        "deaths": 99
     },
     {
         "id": 3,
         "username": "Makedon",
         "wins": 2,
-        "losses": 3,
+        "losses": 6,
         "draws": 0,
-        "kills": 69,
-        "deaths": 67
+        "kills": 135,
+        "deaths": 122
     },
     {
         "id": 4,
         "username": "Ljupa",
-        "wins": 3,
+        "wins": 6,
         "losses": 2,
         "draws": 0,
-        "kills": 71,
-        "deaths": 71
+        "kills": 131,
+        "deaths": 114
     },
     {
         "id": 5,
         "username": "Igor",
         "wins": 0,
-        "losses": 1,
+        "losses": 4,
         "draws": 0,
-        "kills": 25,
-        "deaths": 22
+        "kills": 68,
+        "deaths": 78
     },
     {
         "id": 6,
         "username": "neno",
-        "wins": 3,
+        "wins": 6,
         "losses": 2,
         "draws": 0,
-        "kills": 156,
-        "deaths": 68
+        "kills": 247,
+        "deaths": 105
     },
     {
         "id": 7,
         "username": "KoLJo",
         "wins": 2,
-        "losses": 3,
+        "losses": 6,
         "draws": 0,
-        "kills": 99,
-        "deaths": 80
+        "kills": 136,
+        "deaths": 136
     },
     {
         "id": 8,
@@ -84,10 +84,10 @@
         "id": 9,
         "username": "MaxMagnus",
         "wins": 3,
-        "losses": 2,
+        "losses": 5,
         "draws": 0,
-        "kills": 50,
-        "deaths": 79
+        "kills": 71,
+        "deaths": 58
     },
     {
         "id": 10,
@@ -100,24 +100,15 @@
     },
     {
         "id": 11,
-        "username": "Vlatkosaurus",
-        "wins": 0,
-        "losses": 0,
+        "username": "Viksaa",
+        "wins": 6,
+        "losses": 2,
         "draws": 0,
-        "kills": 0,
-        "deaths": 0
+        "kills": 109,
+        "deaths": 125
     },
     {
         "id": 12,
-        "username": "Viksaa",
-        "wins": 3,
-        "losses": 2,
-        "draws": 0,
-        "kills": 67,
-        "deaths": 83
-    },
-    {
-        "id": 13,
         "username": "Zuica Lazova",
         "wins": 2,
         "losses": 3,
@@ -126,12 +117,12 @@
         "deaths": 85
     },
     {
-        "id": 14,
+        "id": 13,
         "username": "Leon",
         "wins": 2,
-        "losses": 2,
+        "losses": 5,
         "draws": 0,
-        "kills": 56,
-        "deaths": 54
+        "kills": 93,
+        "deaths": 107
     }
 ]
