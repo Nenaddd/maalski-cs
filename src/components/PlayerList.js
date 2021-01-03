@@ -30,7 +30,7 @@ const PlayerList = ({ allPlayers }) => {
     const calculateKdScore = (k, d) => Math.round(((k / d) + Number.EPSILON) * 100) / 100 || 0.00;
     // const calculateKdScore = (k, d) => d !== 0 ? (k / d).toFixed(2) : "0.00";
 
-    const calculateWinLoseScore = (w, l, d, param) => param > 1 ? ((((w + l + d) / param) / 100) * 10) : 0;
+    const calculateWinLoseScore = (w, l, d, param) => param > 1 ? ((((w + l + d) / param) / 100) * 5) : 0;
 
     const getKillsPerGame = (kills, numberOfGames) => Math.round((kills / numberOfGames)) || 0;
 
