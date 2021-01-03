@@ -18,7 +18,9 @@ const PlayerList = ({ allPlayers }) => {
             const lossesScore = calculateWinLoseScore(player.wins, player.losses, player.draws, player.wins);
             const kdScore = calculateKdScore(player.kills, player.deaths);
             // score based on wins/losses + k/d
-            const totalScore = kdScore + winsScore - lossesScore;
+            // const totalScore = kdScore + winsScore - lossesScore;
+            const totalScore = kdScore;
+
             player.score = totalScore.toFixed(2);
             player.killsPerGame = getKillsPerGame(player.kills, (player.wins + player.losses + player.draws));
         });
