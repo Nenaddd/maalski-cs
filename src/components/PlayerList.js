@@ -14,8 +14,8 @@ const PlayerList = ({ allPlayers }) => {
         let clonedPlayers = [...players];
         clonedPlayers.forEach(player => {
             // 10% of the wins/losses affect the scores
-            const winsScore = calculateWinLoseScore(player.wins, player.losses, player.draws, player.losses);
-            const lossesScore = calculateWinLoseScore(player.wins, player.losses, player.draws, player.wins);
+            // const winsScore = calculateWinLoseScore(player.wins, player.losses, player.draws, player.losses);
+            // const lossesScore = calculateWinLoseScore(player.wins, player.losses, player.draws, player.wins);
             const kdScore = calculateKdScore(player.kills, player.deaths);
             // score based on wins/losses + k/d
             // const totalScore = kdScore + winsScore - lossesScore;
@@ -32,7 +32,7 @@ const PlayerList = ({ allPlayers }) => {
     const calculateKdScore = (k, d) => Math.round(((k / d) + Number.EPSILON) * 100) / 100 || 0.00;
     // const calculateKdScore = (k, d) => d !== 0 ? (k / d).toFixed(2) : "0.00";
 
-    const calculateWinLoseScore = (w, l, d, param) => param > 1 ? ((((w + l + d) / param) / 100) * 5) : 0;
+    // const calculateWinLoseScore = (w, l, d, param) => param > 1 ? ((((w + l + d) / param) / 100) * 5) : 0;
 
     const getKillsPerGame = (kills, numberOfGames) => Math.round((kills / numberOfGames)) || 0;
 
