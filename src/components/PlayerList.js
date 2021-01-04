@@ -32,7 +32,7 @@ const PlayerList = ({ allPlayers }) => {
     // const calculateKdScore = (k, d) => d !== 0 ? (k / d).toFixed(2) : "0.00";
 
     // const calculateWinLoseScore = (w, l, d, param) => param > 1 ? ((((w + l + d) / param) / 100) * 5) : 0;
-    const calculateWinLoseScore = (w, l) => ((w - l) / 100) * 2;
+    const calculateWinLoseScore = (w, l) => ((w - l) / 100) * 1.5;
 
     const getKillsPerGame = (kills, numberOfGames) => Math.round((kills / numberOfGames)) || 0;
 
