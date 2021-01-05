@@ -124,5 +124,14 @@
         "draws": 0,
         "kills": 161,
         "deaths": 161
+    },
+    {
+        "id": 14,
+        "username": "Vlatkosaurus",
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "kills": 0,
+        "deaths": 0
     }
 ]
