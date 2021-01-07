@@ -3,7 +3,7 @@
         "id": 0,
         "username": "Van Gogh",
         "wins": 4,
-        "losses": 2,
+        "losses": 4,
         "draws": 0,
         "kills": 159,
         "deaths": 139
@@ -11,7 +11,7 @@
     {
         "id": 1,
         "username": "ROSONJER",
-        "wins": 1,
+        "wins": 3,
         "losses": 2,
         "draws": 0,
         "kills": 73,
@@ -39,7 +39,7 @@
         "id": 4,
         "username": "Ljupa",
         "wins": 8,
-        "losses": 3,
+        "losses": 5,
         "draws": 0,
         "kills": 230,
         "deaths": 211
@@ -47,7 +47,7 @@
     {
         "id": 5,
         "username": "Igor",
-        "wins": 0,
+        "wins": 2,
         "losses": 4,
         "draws": 0,
         "kills": 120,
@@ -56,7 +56,7 @@
     {
         "id": 6,
         "username": "neno",
-        "wins": 8,
+        "wins": 10,
         "losses": 3,
         "draws": 0,
         "kills": 453,
@@ -66,7 +66,7 @@
         "id": 7,
         "username": "KoLJo",
         "wins": 4,
-        "losses": 7,
+        "losses": 9,
         "draws": 0,
         "kills": 220,
         "deaths": 251
@@ -84,7 +84,7 @@
         "id": 9,
         "username": "MaxMagnus",
         "wins": 5,
-        "losses": 6,
+        "losses": 8,
         "draws": 0,
         "kills": 135,
         "deaths": 247
@@ -93,7 +93,7 @@
         "id": 10,
         "username": "KalaShephard[R]",
         "wins": 0,
-        "losses": 0,
+        "losses": 2,
         "draws": 0,
         "kills": 45,
         "deaths": 41
@@ -101,7 +101,7 @@
     {
         "id": 11,
         "username": "Viksaa",
-        "wins": 8,
+        "wins": 10,
         "losses": 3,
         "draws": 0,
         "kills": 197,
@@ -119,7 +119,7 @@
     {
         "id": 13,
         "username": "Leon",
-        "wins": 3,
+        "wins": 5,
         "losses": 7,
         "draws": 0,
         "kills": 195,
