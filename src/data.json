@@ -5,8 +5,8 @@
         "wins": 11,
         "losses": 7,
         "draws": 0,
-        "kills": 337,
-        "deaths": 317
+        "kills": 360,
+        "deaths": 333
     },
     {
         "id": 1,
@@ -23,8 +23,8 @@
         "wins": 7,
         "losses": 11,
         "draws": 0,
-        "kills": 359,
-        "deaths": 289
+        "kills": 387,
+        "deaths": 306
     },
     {
         "id": 3,
@@ -32,8 +32,8 @@
         "wins": 7,
         "losses": 11,
         "draws": 0,
-        "kills": 338,
-        "deaths": 316
+        "kills": 369,
+        "deaths": 336
     },
     {
         "id": 4,
@@ -41,8 +41,8 @@
         "wins": 14,
         "losses": 9,
         "draws": 0,
-        "kills": 433,
-        "deaths": 389
+        "kills": 452,
+        "deaths": 408
     },
     {
         "id": 5,
@@ -50,8 +50,8 @@
         "wins": 2,
         "losses": 14,
         "draws": 0,
-        "kills": 363,
-        "deaths": 311
+        "kills": 390,
+        "deaths": 327
     },
     {
         "id": 6,
@@ -68,8 +68,8 @@
         "wins": 11,
         "losses": 12,
         "draws": 0,
-        "kills": 411,
-        "deaths": 447
+        "kills": 439,
+        "deaths": 469
     },
     {
         "id": 8,
@@ -86,8 +86,8 @@
         "wins": 11,
         "losses": 12,
         "draws": 0,
-        "kills": 228,
-        "deaths": 445
+        "kills": 246,
+        "deaths": 467
     },
     {
         "id": 10,
@@ -95,8 +95,8 @@
         "wins": 3,
         "losses": 5,
         "draws": 0,
-        "kills": 147,
-        "deaths": 145
+        "kills": 165,
+        "deaths": 163
     },
     {
         "id": 11,
@@ -104,8 +104,8 @@
         "wins": 14,
         "losses": 9,
         "draws": 0,
-        "kills": 338,
-        "deaths": 427
+        "kills": 349,
+        "deaths": 448
     },
     {
         "id": 12,
@@ -122,8 +122,8 @@
         "wins": 8,
         "losses": 14,
         "draws": 0,
-        "kills": 381,
-        "deaths": 362
+        "kills": 395,
+        "deaths": 384
     },
     {
         "id": 14,
