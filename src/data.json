@@ -2,7 +2,7 @@
     {
         "id": 0,
         "username": "Van Gogh",
-        "wins": 8,
+        "wins": 11,
         "losses": 7,
         "draws": 0,
         "kills": 337,
@@ -12,7 +12,7 @@
         "id": 1,
         "username": "ROSONJER",
         "wins": 6,
-        "losses": 2,
+        "losses": 5,
         "draws": 0,
         "kills": 163,
         "deaths": 224
@@ -21,7 +21,7 @@
         "id": 2,
         "username": "Zzzzokid",
         "wins": 7,
-        "losses": 8,
+        "losses": 11,
         "draws": 0,
         "kills": 359,
         "deaths": 289
@@ -30,7 +30,7 @@
         "id": 3,
         "username": "Makedon",
         "wins": 7,
-        "losses": 8,
+        "losses": 11,
         "draws": 0,
         "kills": 338,
         "deaths": 316
@@ -38,7 +38,7 @@
     {
         "id": 4,
         "username": "Ljupa",
-        "wins": 11,
+        "wins": 14,
         "losses": 9,
         "draws": 0,
         "kills": 433,
@@ -48,7 +48,7 @@
         "id": 5,
         "username": "Igor",
         "wins": 2,
-        "losses": 11,
+        "losses": 14,
         "draws": 0,
         "kills": 363,
         "deaths": 311
@@ -56,7 +56,7 @@
     {
         "id": 6,
         "username": "neno",
-        "wins": 13,
+        "wins": 16,
         "losses": 3,
         "draws": 0,
         "kills": 677,
@@ -65,7 +65,7 @@
     {
         "id": 7,
         "username": "KoLJo",
-        "wins": 8,
+        "wins": 11,
         "losses": 12,
         "draws": 0,
         "kills": 411,
@@ -83,7 +83,7 @@
     {
         "id": 9,
         "username": "MaxMagnus",
-        "wins": 8,
+        "wins": 11,
         "losses": 12,
         "draws": 0,
         "kills": 228,
@@ -93,7 +93,7 @@
         "id": 10,
         "username": "KalaShephard[R]",
         "wins": 3,
-        "losses": 2,
+        "losses": 5,
         "draws": 0,
         "kills": 147,
         "deaths": 145
@@ -102,7 +102,7 @@
         "id": 11,
         "username": "Viksaa",
         "wins": 14,
-        "losses": 6,
+        "losses": 9,
         "draws": 0,
         "kills": 338,
         "deaths": 427
@@ -119,7 +119,7 @@
     {
         "id": 13,
         "username": "Leon",
-        "wins": 5,
+        "wins": 8,
         "losses": 14,
         "draws": 0,
         "kills": 381,
