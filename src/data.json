@@ -5,8 +5,8 @@
         "wins": 8,
         "losses": 7,
         "draws": 0,
-        "kills": 291,
-        "deaths": 273
+        "kills": 337,
+        "deaths": 317
     },
     {
         "id": 1,
@@ -14,8 +14,8 @@
         "wins": 6,
         "losses": 2,
         "draws": 0,
-        "kills": 128,
-        "deaths": 157
+        "kills": 163,
+        "deaths": 224
     },
     {
         "id": 2,
@@ -23,8 +23,8 @@
         "wins": 7,
         "losses": 8,
         "draws": 0,
-        "kills": 316,
-        "deaths": 233
+        "kills": 359,
+        "deaths": 289
     },
     {
         "id": 3,
@@ -32,8 +32,8 @@
         "wins": 7,
         "losses": 8,
         "draws": 0,
-        "kills": 297,
-        "deaths": 252
+        "kills": 338,
+        "deaths": 316
     },
     {
         "id": 4,
@@ -41,8 +41,8 @@
         "wins": 11,
         "losses": 9,
         "draws": 0,
-        "kills": 365,
-        "deaths": 345
+        "kills": 433,
+        "deaths": 389
     },
     {
         "id": 5,
@@ -50,8 +50,8 @@
         "wins": 2,
         "losses": 11,
         "draws": 0,
-        "kills": 295,
-        "deaths": 252
+        "kills": 363,
+        "deaths": 311
     },
     {
         "id": 6,
@@ -59,8 +59,8 @@
         "wins": 13,
         "losses": 3,
         "draws": 0,
-        "kills": 563,
-        "deaths": 239
+        "kills": 677,
+        "deaths": 272
     },
     {
         "id": 7,
@@ -68,8 +68,8 @@
         "wins": 8,
         "losses": 12,
         "draws": 0,
-        "kills": 356,
-        "deaths": 394
+        "kills": 411,
+        "deaths": 447
     },
     {
         "id": 8,
@@ -86,8 +86,8 @@
         "wins": 8,
         "losses": 12,
         "draws": 0,
-        "kills": 190,
-        "deaths": 402
+        "kills": 228,
+        "deaths": 445
     },
     {
         "id": 10,
@@ -95,8 +95,8 @@
         "wins": 3,
         "losses": 2,
         "draws": 0,
-        "kills": 105,
-        "deaths": 86
+        "kills": 147,
+        "deaths": 145
     },
     {
         "id": 11,
@@ -104,8 +104,8 @@
         "wins": 14,
         "losses": 6,
         "draws": 0,
-        "kills": 307,
-        "deaths": 362
+        "kills": 338,
+        "deaths": 427
     },
     {
         "id": 12,
@@ -122,8 +122,8 @@
         "wins": 5,
         "losses": 14,
         "draws": 0,
-        "kills": 317,
-        "deaths": 322
+        "kills": 381,
+        "deaths": 362
     },
     {
         "id": 14,
