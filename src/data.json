@@ -3,8 +3,8 @@
         "id": 0,
         "username": "Van Gogh",
         "wins": 13,
-        "losses": 9,
-        "draws": 0,
+        "losses": 10,
+        "draws": 1,
         "kills": 472,
         "deaths": 433
     },
@@ -12,26 +12,26 @@
         "id": 1,
         "username": "ROSONJER",
         "wins": 8,
-        "losses": 6,
-        "draws": 0,
+        "losses": 7,
+        "draws": 1,
         "kills": 252,
         "deaths": 334
     },
     {
         "id": 2,
         "username": "Zzzzokid",
-        "wins": 9,
+        "wins": 10,
         "losses": 13,
-        "draws": 0,
-        "kills": 538,
-        "deaths": 389
+        "draws": 1,
+        "kills": 387,
+        "deaths": 332
     },
     {
         "id": 3,
         "username": "Makedon",
-        "wins": 9,
+        "wins": 10,
         "losses": 13,
-        "draws": 0,
+        "draws": 1,
         "kills": 488,
         "deaths": 444
     },
@@ -39,17 +39,17 @@
         "id": 4,
         "username": "Ljupa",
         "wins": 15,
-        "losses": 12,
-        "draws": 0,
+        "losses": 13,
+        "draws": 1,
         "kills": 554,
         "deaths": 507
     },
     {
         "id": 5,
         "username": "Igor",
-        "wins": 3,
+        "wins": 4,
         "losses": 14,
-        "draws": 0,
+        "draws": 1,
         "kills": 449,
         "deaths": 358
     },
@@ -65,9 +65,9 @@
     {
         "id": 7,
         "username": "KoLJo",
-        "wins": 13,
+        "wins": 14,
         "losses": 14,
-        "draws": 0,
+        "draws": 1,
         "kills": 551,
         "deaths": 564
     },
@@ -83,9 +83,9 @@
     {
         "id": 9,
         "username": "MaxMagnus",
-        "wins": 13,
+        "wins": 14,
         "losses": 14,
-        "draws": 0,
+        "draws": 1,
         "kills": 299,
         "deaths": 568
     },
@@ -111,8 +111,8 @@
         "id": 12,
         "username": "Zuica Lazova",
         "wins": 8,
-        "losses": 7,
-        "draws": 0,
+        "losses": 8,
+        "draws": 1,
         "kills": 420,
         "deaths": 293
     },
@@ -120,8 +120,8 @@
         "id": 13,
         "username": "Leon",
         "wins": 8,
-        "losses": 15,
-        "draws": 0,
+        "losses": 16,
+        "draws": 1,
         "kills": 426,
         "deaths": 422
     },
