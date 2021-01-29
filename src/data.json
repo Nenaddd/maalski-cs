@@ -5,8 +5,8 @@
         "wins": 13,
         "losses": 9,
         "draws": 0,
-        "kills": 428,
-        "deaths": 393
+        "kills": 472,
+        "deaths": 433
     },
     {
         "id": 1,
@@ -14,8 +14,8 @@
         "wins": 8,
         "losses": 6,
         "draws": 0,
-        "kills": 222,
-        "deaths": 296
+        "kills": 252,
+        "deaths": 334
     },
     {
         "id": 2,
@@ -23,8 +23,8 @@
         "wins": 9,
         "losses": 13,
         "draws": 0,
-        "kills": 482,
-        "deaths": 363
+        "kills": 538,
+        "deaths": 389
     },
     {
         "id": 3,
@@ -32,8 +32,8 @@
         "wins": 9,
         "losses": 13,
         "draws": 0,
-        "kills": 451,
-        "deaths": 407
+        "kills": 488,
+        "deaths": 444
     },
     {
         "id": 4,
@@ -41,8 +41,8 @@
         "wins": 15,
         "losses": 12,
         "draws": 0,
-        "kills": 522,
-        "deaths": 470
+        "kills": 554,
+        "deaths": 507
     },
     {
         "id": 5,
@@ -50,8 +50,8 @@
         "wins": 3,
         "losses": 14,
         "draws": 0,
-        "kills": 390,
-        "deaths": 327
+        "kills": 449,
+        "deaths": 358
     },
     {
         "id": 6,
@@ -68,8 +68,8 @@
         "wins": 13,
         "losses": 14,
         "draws": 0,
-        "kills": 514,
-        "deaths": 535
+        "kills": 551,
+        "deaths": 564
     },
     {
         "id": 8,
@@ -86,8 +86,8 @@
         "wins": 13,
         "losses": 14,
         "draws": 0,
-        "kills": 286,
-        "deaths": 532
+        "kills": 299,
+        "deaths": 568
     },
     {
         "id": 10,
@@ -113,8 +113,8 @@
         "wins": 8,
         "losses": 7,
         "draws": 0,
-        "kills": 386,
-        "deaths": 255
+        "kills": 420,
+        "deaths": 293
     },
     {
         "id": 13,
@@ -122,8 +122,8 @@
         "wins": 8,
         "losses": 15,
         "draws": 0,
-        "kills": 395,
-        "deaths": 384
+        "kills": 426,
+        "deaths": 422
     },
     {
         "id": 14,
